@@ -1,6 +1,6 @@
 # Credit Line Increase Model Card
 ### Basic Information
-* **Person or organization developing model**: Patrick Hall, `jphall@gwu.edu`
+* **Person or organization developing model**: Prithak Kumar Bhattacharyya, `pkbhatta_5@gwu.edu`
 * **Model date**: August, 2021
 * **Model version**: 1.0
 * **License**: MIT
