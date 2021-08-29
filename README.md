@@ -52,19 +52,16 @@
 * **Hyperparameters or other settings of the model**: ccp_alpha=0.0, class_weight=None, criterion='gini', max_depth=6, max_features=None, max_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None,min_samples_leaf=1, min_samples_split=2, min_weight_fraction_leaf=0.0, presort='deprecated', random_state=12345, splitter='best'
 
 ### Ethical considerations:
-* **Math issues**:
-* Some of the inputs or outputs might be hard to understand based on mathematical considerations, if not understanding the meaning of the variables first
+* **Math issues**: Some of the inputs or outputs might be hard to understand based on mathematical considerations, if not understanding the meaning of the variables first
 
-* **Software Problems**:
-* The version of Google Colab might have an impact on the outputs and the graphs might have few discrepancies
+* **Software Problems**: The version of Google Colab might have an impact on the outputs and the graphs might have few discrepancies
 
 * **Real World Risks**:
 * If this model is used to make business decisions, it might not be accurate due to the variable importance measure and can severly impact the outcome
 * The model consists of bias based on Gender and Race which can be considered as a severe discriminating factor, though efforts were made to overcome them
 
 
-* **Unexpected things happening on the model or results**:
-* The output of the variable "race" is correlated to the predictions, which is a model bias and has an impact on the output i.e. accuracy 
+* **Unexpected things happening on the model or results**: The output of the variable "race" is correlated to the predictions, which is a model bias and has an impact on the output i.e. accuracy 
 
 ### Quantitative analysis:
 * **Metrics used to evaluate the final model**:
