@@ -36,6 +36,7 @@
 * **Number of rows in training and validation data**:
   * Training rows: 15,000
   * Validation rows: 7,500
+  * Columns: 20
  
 ### Test Data
 * **Source of test data**: GWU Blackboard, email `pkbhatta_5@gwu.edu` for more information
@@ -49,3 +50,39 @@
 * **Software used to implement the model**: Python
 * **Version of the modeling software**: 3.7.11
 * **Hyperparameters or other settings of the model**: ccp_alpha=0.0, class_weight=None, criterion='gini', max_depth=6, max_features=None, max_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None,min_samples_leaf=1, min_samples_split=2, min_weight_fraction_leaf=0.0, presort='deprecated', random_state=12345, splitter='best'
+
+### Ethical considerations:
+* **Math issues**:
+* Some of the inputs or outputs might be hard to understand based on mathematical considerations, if not understanding the meaning of the variables first
+
+* **Software Problems**:
+* The version of Google Colab might have an impact on the outputs and the graphs might have few discrepancies
+
+* **Real World Risks**:
+* If this model is used to make business decisions, it might not be accurate due to the variable importance measure and can severly impact the outcome
+* The model consists of bias based on Gender and Race which can be considered as a severe discriminating factor, though efforts were made to overcome them
+
+
+* **Unexpected things happening on the model or results**:
+* The output of the variable "race" is correlated to the predictions, which is a model bias and has an impact on the output i.e. accuracy 
+
+### Quantitative analysis:
+* **Metrics used to evaluate the final model**:
+* Confusion metrics
+* AUC graphs
+
+* **The final values of the metrics for all data**:
+* Training data: 78.37%
+* Validation data: 74.96%
+* Test data: 74.38%
+
+* **Plots in the model**:
+*	Histograms
+*	Correlation heatmap
+*	Line plots showing 
+*	Bar chart
+
+* **Comparison between different models**:
+* For the model comparison, we implemented the Support Vector Machines(SVM) and found that it learnt more about the 0's in the target varibale than the 1's as the data consists of more 0's
+* The accuracy for predicting the 0's was approximately 77% and that for the 1's was 50% 
+* The decision tree out-performed the Support Vector Machines
