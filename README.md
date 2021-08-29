@@ -43,9 +43,9 @@
 * **State any differences in columns between training and test data**: None
 
 ### Model Details
-* **Columns used as inputs in the final model**: 
-* **Column(s) used as target(s) in the final model**: 
+* **Columns used as inputs in the final model**: 'LIMIT_BAL', 'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1', 'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6', 'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6'
+* **Column(s) used as target(s) in the final model**: 'DELINQ_NEXT'
 * **Type of model**: 'Decision Tree' with an accuracy of ~75%
 * **Software used to implement the model**: Python
 * **Version of the modeling software**: 3.7.11
-* **Hyperparameters or other settings of your model**: 
+* **Hyperparameters or other settings of your model**: ccp_alpha=0.0, class_weight=None, criterion='gini', max_depth=6, max_features=None, max_leaf_nodes=None, min_impurity_decrease=0.0, min_impurity_split=None,min_samples_leaf=1, min_samples_split=2, min_weight_fraction_leaf=0.0, presort='deprecated', random_state=12345, splitter='best'
