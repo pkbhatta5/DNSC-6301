@@ -1,10 +1,10 @@
 # Credit Line Increase Model Card
 ### Basic Information
 * **Person or organization developing model**: 
-* Prithak Kumar Bhattacharyya, `pkbhatta_5@gwu.edu`
-* Ziyad Maknojia, 'zam@gwu.edu'
-* Jenny Choi, 'jihyechoi@gwu.edu'
-* Kaixu Yu, ''
+* Prithak Kumar Bhattacharyya, `pkbhatta_5@gwmail.gwu.edu`
+* Ziyad Maknojia, 'zam@gwmail.gwu.edu'
+* Jenny Choi, 'jihyechoi@gwmail.gwu.edu'
+* Kaixu Yu, 'kyutony98@gwmail.gwu.edu'
 * **Model date**: August, 2021
 * **Model version**: 1.0
 * **License**: MIT
@@ -47,5 +47,5 @@
 * **Column(s) used as target(s) in the final model**: 
 * **Type of model**: 'Decision Tree' with an accuracy of ~75%
 * **Software used to implement the model**: Python
-* **Version of the modeling software**: 
+* **Version of the modeling software**: 3.7.11
 * **Hyperparameters or other settings of your model**: 
