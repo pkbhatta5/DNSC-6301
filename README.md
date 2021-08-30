@@ -17,7 +17,7 @@
 
 ### Training Data
 * Data dictionary: 
-* 
+
 | Name | Modeling Role | Measurement Level| Description|
 | ---- | ------------- | ---------------- | ---------- |
 |**ID**| ID | int | unique row indentifier |
@@ -80,6 +80,7 @@
 *	Line plots showing 
 *	Bar chart
 
+### Additional analysis:
 * **Comparison between different models**:
 * For the model comparison, we implemented the Support Vector Machines(SVM) and found that it learnt more about the 0's in the target varibale than the 1's as the data consists of more 0's
 * The accuracy for predicting the 0's was approximately 77% and that for the 1's was 50% 
